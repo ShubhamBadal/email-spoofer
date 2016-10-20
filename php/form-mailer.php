@@ -1,3 +1,5 @@
+<!--  Email Spoofer v0.0.1 | MIT License | github.com/ShubhamBadal/email-spoofer  -->
+
 <!doctype html>
 <html>
 <head>
@@ -57,7 +59,7 @@
 
 
 	// SEND AND SHOW MESSAGE
-	if (mail($to, $subject, $message, $header)) echo $headers.'<h1>Mail sent!</h1>';
+	if (mail($to, $subject, $message, $headers)) echo $headers.'<h1>Mail sent!</h1>';
 	else echo '<h1>Something went wrong...</h1>';
 
 
