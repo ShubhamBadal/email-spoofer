@@ -18,14 +18,14 @@
 
 
 	// COMPOSE
-	$to      = 'thecybrgirl@gmail.com';
-	$subject = 'Do you even know who I am';
-	$message = 'Hey, I want to meet you.';
+	$to      = 'angelina@jolie.com';
+	$subject = 'Hey, I am sorry.';
+	$message = 'I want to meet you!';
 	
 
 	// BASIC HEADER
-	$headers = 'From: shunty.fun@gmail.com' . "\r\n" .
-	   	   	   'Reply-To: shunty.fun@gmail.com' . "\r\n" .
+	$headers = 'From: brad@pitt.com' . "\r\n" .
+	   	   	   'Reply-To: brad@pitt.com' . "\r\n" .
 	    	   'X-Mailer: PHP/' . phpversion();
 	
 	

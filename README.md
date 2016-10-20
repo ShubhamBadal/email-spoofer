@@ -34,6 +34,13 @@ A neatly written PHP script to send emails without permission from an SMTP serve
 
 IE9+, Chrome, Firefox, Opera, Safari and everything else.
 
+#### Known issues
+
+* PHP mail function does not support authentication. To use PHP Mail() function provided in this script you will need to use authentication-less SMTP servers. Either setup your own SMTP server on localhost/cloud. If not, you can host this PHP code on a less secured SMTP service like 000webhost which uses localhost to send emails or configure this script to point to an open SMTP service provider.
+* Emails sent from this script may be marked as spam especially if the reciever uses Gmail or any such highly secured email inbox.
+* Content type header will not work on some servers
+
+
 #### Bugs and feature requests
 
 If you encounter any issues while using this plugin or have any ideas for this plugin, feel free to create an issue or feature request on GitHub. Alternatively, you can write to the creators directly.

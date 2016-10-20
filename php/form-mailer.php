@@ -45,17 +45,18 @@
 
 
 	// FULL HEADER
-	$headers  = 'From: '.$fromFull . "\r\n";
-	$headers .= 'Reply-To: '.$replytoFull . "\r\n";
-	// $headers .= 'To: Mary <mary@example.com>, Kelly <kelly@example.com>' . "\r\n";
-	// $headers .= 'Cc: sendacopy@here.com' . "\r\n";
-	// $headers .= 'Bcc: sendablindcopy@here.com' . "\r\n";
-	// $headers .= "X-Sender: testsite < mail@testsite.com >\r\n";
-	$headers .= "Return-Path: " . $fromFull . "\r\n";
+	$headers  = "From: ".$fromFull . "\r\n";
+	$headers .= "Reply-To: ".$replytoFull . "\r\n";
+	// $headers .= "To: Mary <mary@example.com>, Kelly <kelly@example.com>" . "\r\n";
+	// $headers .= "Cc: sendacopy@here.com" . "\r\n";
+	// $headers .= "Bcc: sendablindcopy@here.com" . "\r\n";
+	// $headers .= "X-Sender: testsite < mail@testsite.com >" . "\r\n";
+	// $headers .= "Return-Path: " . $fromFull . "\r\n";
+	// $headers .= "Content-Type: text/html; charset=ISO-8859-1" . "\r\n";
 	$headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
-	$headers .= "X-Priority: 1\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=UTF-8\n";
+	$headers .= "X-Priority: 1" . "\r\n";
+	$headers .= "MIME-Version: 1.0" . "\r\n";
+	
 
 
 	// SEND AND SHOW MESSAGE
