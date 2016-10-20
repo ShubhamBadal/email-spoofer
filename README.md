@@ -2,10 +2,10 @@
 
 > A PHP script to send email from any Email ID without permission
 
+
 ## Intro
 
 A neatly written PHP script to send emails without permission from an SMTP server. This can also be used as a general solution for sending emails via HTML forms in your project or website to avoid using plugins like PHPMailer, SwiftMailer, etc.
-
 
 #### Features
 
@@ -22,6 +22,7 @@ A neatly written PHP script to send emails without permission from an SMTP serve
 * HTML forms - contact us, feedback, report a bug, etc.
 * Spoofed emails - send spam or prank your friends
 
+
 ## Documentation
 
 #### Getting started
@@ -29,11 +30,9 @@ A neatly written PHP script to send emails without permission from an SMTP serve
 1. Include the PHP code (direct or form bases) in your project
 2. Customize the HTML and PHP code to suit your form fields
 
-
 #### Browser Compatibility
 
 IE9+, Chrome, Firefox, Opera, Safari and everything else.
-
 
 #### Bugs and feature requests
 
