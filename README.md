@@ -18,7 +18,7 @@ A neatly written PHP script that leverages loopholes of existing email technolog
 * No plugin (PHPMailer, SwiftMailer, etc.) is required
 * SMTP settings configuration options
 * HTML validated and secured
-* Debuggine options
+* Debugging options
 * Demo included
 
 #### Use cases
@@ -33,6 +33,7 @@ A neatly written PHP script that leverages loopholes of existing email technolog
 
 1. Include the PHP code (direct or form bases) in your project
 2. Customize the HTML and PHP code to suit your form fields
+3. Run your PHP code on a server that is configured for SMTP
 
 #### Browser Compatibility
 
@@ -50,7 +51,12 @@ IE9+, Chrome, Firefox, Opera, Safari and everything else.
 If you encounter any issues while using this plugin or have any ideas for this plugin, feel free to create an issue or feature request on GitHub. Alternatively, you can write to the creators directly.
 
 
-## Creators
+## Disclaimer
+
+This project was created and released under the MIT License for educational and research purposes only. Any actions and or activities related to the material contained within this project is solely your responsibility. The misuse of this project can result in criminal charges brought against the persons in question. If you misuse the contents of this project, the developer or the creator of this project will not be held responsible for your actions.
+
+
+## Creator
 
 **Shubham Badal**
 
